@@ -1,0 +1,12 @@
+{
+  "parser": "babel-eslint",
+  "extends": ["react-app", "airbnb"],
+  "plugins": ["react", "jsx-a11y", "import", "prettier"],
+  "rules": {
+    "implicit-arrow-linebreak": 0,
+    "object-curly-newline": 0,
+    "react/jsx-one-expression-per-line": 0,
+    "no-underscore-dangle": 1,
+    "operator-linebreak": 0
+  }
+}
